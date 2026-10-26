@@ -1,0 +1,37 @@
+{
+  "_aviso": "Las URLs de 'candidatos' son direcciones PROBABLES, no verificadas. El verificador las prueba y ademas busca el feed en la portada (home) de cada medio.",
+  "fuentes": [
+    {"id": "infobae", "nombre": "Infobae", "categoria": "argentina", "home": "https://www.infobae.com", "candidatos": []},
+    {"id": "clarin", "nombre": "Clarin", "categoria": "argentina", "home": "https://www.clarin.com", "candidatos": ["https://www.clarin.com/rss/lo-ultimo/"]},
+    {"id": "lanacion", "nombre": "La Nacion", "categoria": "argentina", "home": "https://www.lanacion.com.ar", "candidatos": ["https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml"]},
+    {"id": "pagina12", "nombre": "Pagina/12", "categoria": "argentina", "home": "https://www.pagina12.com.ar", "candidatos": ["https://www.pagina12.com.ar/rss/portada"]},
+    {"id": "ambito", "nombre": "Ambito Financiero", "categoria": "economia", "home": "https://www.ambito.com", "candidatos": []},
+    {"id": "perfil", "nombre": "Perfil", "categoria": "argentina", "home": "https://www.perfil.com", "candidatos": ["https://www.perfil.com/feed"]},
+    {"id": "tn", "nombre": "TN", "categoria": "argentina", "home": "https://tn.com.ar", "candidatos": ["https://tn.com.ar/arc/outboundfeeds/rss/?outputType=xml"]},
+    {"id": "a24", "nombre": "A24", "categoria": "argentina", "home": "https://www.a24.com", "candidatos": []},
+    {"id": "eldestape", "nombre": "El Destape", "categoria": "argentina", "home": "https://www.eldestapeweb.com", "candidatos": []},
+    {"id": "cronista", "nombre": "El Cronista", "categoria": "economia", "home": "https://www.cronista.com", "candidatos": []},
+
+    {"id": "eldia_gchu", "nombre": "El Dia de Gualeguaychu", "categoria": "gualeguaychu", "home": "https://www.eldiaonline.com", "candidatos": []},
+    {"id": "elargentino", "nombre": "El Argentino de Gualeguaychu", "categoria": "gualeguaychu", "home": "https://www.elargentino.com.ar", "candidatos": []},
+    {"id": "elentrerios", "nombre": "El Entre Rios", "categoria": "entre_rios", "home": "https://www.elentrerios.com", "candidatos": []},
+    {"id": "unoentrerios", "nombre": "Uno Entre Rios", "categoria": "entre_rios", "home": "https://www.unoentrerios.com.ar", "candidatos": []},
+    {"id": "apf", "nombre": "APF Digital", "categoria": "entre_rios", "home": "https://www.apfdigital.com.ar", "candidatos": []},
+
+    {"id": "tyc", "nombre": "TyC Sports", "categoria": "deportes", "home": "https://www.tycsports.com", "candidatos": []},
+    {"id": "ole", "nombre": "Ole", "categoria": "deportes", "home": "https://www.ole.com.ar", "candidatos": []},
+    {"id": "espn_ar", "nombre": "ESPN Argentina", "categoria": "deportes", "home": "https://www.espn.com.ar", "candidatos": []},
+
+    {"id": "bbc_mundo", "nombre": "BBC Mundo", "categoria": "internacionales", "home": "https://www.bbc.com/mundo", "candidatos": ["https://feeds.bbci.co.uk/mundo/rss.xml"]},
+    {"id": "cnn_es", "nombre": "CNN en Espanol", "categoria": "internacionales", "home": "https://cnnespanol.cnn.com", "candidatos": ["https://cnnespanol.cnn.com/feed/"]},
+    {"id": "france24_es", "nombre": "France 24 Espanol", "categoria": "internacionales", "home": "https://www.france24.com/es/", "candidatos": []},
+    {"id": "dw_es", "nombre": "DW Espanol", "categoria": "internacionales", "home": "https://www.dw.com/es/", "candidatos": []},
+    {"id": "reuters", "nombre": "Reuters", "categoria": "internacionales", "home": "https://www.reuters.com", "candidatos": []},
+    {"id": "ap", "nombre": "Associated Press", "categoria": "internacionales", "home": "https://apnews.com", "candidatos": []},
+
+    {"id": "xataka", "nombre": "Xataka", "categoria": "tecnologia", "home": "https://www.xataka.com", "candidatos": []},
+    {"id": "genbeta", "nombre": "Genbeta", "categoria": "tecnologia", "home": "https://www.genbeta.com", "candidatos": []},
+    {"id": "mit_tr", "nombre": "MIT Technology Review", "categoria": "tecnologia", "home": "https://www.technologyreview.com", "candidatos": ["https://www.technologyreview.com/feed/"]},
+    {"id": "techcrunch", "nombre": "TechCrunch", "categoria": "tecnologia", "home": "https://techcrunch.com", "candidatos": ["https://techcrunch.com/feed/"]}
+  ]
+}
