@@ -1,7 +1,7 @@
 {
   "_aviso": "Los feeds incluidos entre los candidatos se validaron en la ejecucion exitosa #3 del 27/10/2026. Las nuevas fuentes se verifican antes de incorporarse.",
   "fuentes": [
-    {"id":"infobae","nombre":"Infobae","categoria":"argentina","home":"https://www.infobae.com","candidatos":["https://www.infobae.com/arc/outboundfeeds/rss/category/estados-unidos/"]},
+    {"id":"infobae","nombre":"Infobae","categoria":"internacionales","home":"https://www.infobae.com","candidatos":["https://www.infobae.com/arc/outboundfeeds/rss/category/estados-unidos/"]},
     {"id":"clarin","nombre":"Clarín","categoria":"argentina","home":"https://www.clarin.com","candidatos":["https://www.clarin.com/rss/lo-ultimo/"]},
     {"id":"lanacion","nombre":"La Nación","categoria":"argentina","home":"https://www.lanacion.com.ar","candidatos":["https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml"]},
     {"id":"pagina12","nombre":"Página/12","categoria":"argentina","home":"https://www.pagina12.com.ar","candidatos":[]},
@@ -30,6 +30,7 @@
     {"id":"mit_tr","nombre":"MIT Technology Review","categoria":"tecnologia","home":"https://www.technologyreview.com","candidatos":["https://www.technologyreview.com/feed/"]},
     {"id":"techcrunch","nombre":"TechCrunch","categoria":"tecnologia","home":"https://techcrunch.com","candidatos":["https://techcrunch.com/feed/"]},
     {"id":"maximaonline","nombre":"Máxima Online","categoria":"gualeguaychu","home":"https://www.maximaonline.com.ar","candidatos":[]},
-    {"id":"nova_comunicaciones","nombre":"Nova Comunicaciones","categoria":"gualeguaychu","home":"https://novacomunicaciones.com.ar","candidatos":[]}
+    {"id":"nova_comunicaciones","nombre":"Nova Comunicaciones","categoria":"gualeguaychu","home":"https://novacomunicaciones.com.ar","candidatos":["https://novacomunicaciones.com.ar/feed/"]}
   ]
 }
+
