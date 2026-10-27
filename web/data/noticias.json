@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-27T20:46-03:00",
+  "generado_en": "2026-10-27T20:53-03:00",
   "historial_horas": 72,
   "fuentes": [
     {
@@ -195,11 +195,144 @@
     {
       "id": "nova_comunicaciones",
       "nombre": "Nova Comunicaciones",
-      "estado": "SIN_FEED",
-      "noticias": 0
+      "estado": "OK",
+      "url_feed": "https://novacomunicaciones.com.ar/feed/",
+      "noticias": 10
     }
   ],
   "noticias": [
+    {
+      "id": "055e9d17c9d5e1c8f3d67dce7c793d00551bb7c5",
+      "titulo": "La fuga de Bolsonaro: \"Milei fue clave\", afirmó un operador liberal",
+      "medio": "El Destape",
+      "publicado_en": "2026-10-27T23:51:27Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Simón Levy afirmó que la coordinación entre Javier Milei y Estados Unidos para sacar de Brasil a Flavio Bolsonaro \"se va hacer oficial\" en estos dias",
+      "enlace": "https://www.eldestapeweb.com/politica/fuga-bolsonaro-milei-fue-clave-afirmo-operador-liberal-20261027205127"
+    },
+    {
+      "id": "ad6c6a0e435b75c7577fd3aaf8adedfcac70fc01",
+      "titulo": "En Paraná se realizará un encuentro para debatir sobre Inteligencia Artificial, transición energética y la cuestión Malvinas",
+      "medio": "APF Digital",
+      "publicado_en": "2026-10-27T23:50:39Z",
+      "categorias": [
+        "Entre Ríos"
+      ],
+      "resumen": "La Pontificia Universidad Católica Argentina (UCA) sede Paraná realizará este miércoles 28 de octubre las VIII Jornadas de Estrategia y Seguridad Internacional. Reunirá a especialistas, docentes, estudiantes, y público interesado en analizar los principales desafíos geopolíticos de la actualidad. Será de 8 a 14 en call",
+      "enlace": "https://www.apfdigital.com.ar/noticias/2026/10/27/476637-en-parana-se-realizara-un-encuentro-para-debatir-sobre-inteligencia-artificial-transicion-energetica-y-la-cuestion-malvinas"
+    },
+    {
+      "id": "812c62c683e47890508789522d0cda8f9c0d95ca",
+      "titulo": "Flávio Bolsonaro llegó a Estados Unidos junto a su esposa y sus hijas",
+      "medio": "TN",
+      "publicado_en": "2026-10-27T23:48:52Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Las últimas noticias del paradero de Flávio Bolsonaro, en vivo:",
+      "enlace": "https://tn.com.ar/internacional/2026/10/27/medios-brasilenos-afirman-que-flavio-bolsonaro-escapo-del-pais-y-esta-en-vuelo-rumbo-a-estados-unidos/"
+    },
+    {
+      "id": "5e3d22cf206fc7691cdc768348151e566bfdbb88",
+      "titulo": "Fueron a pasar un día de pesca a Villa El Chocón y un insólito hallazgo entre las piedras los dejó sin palabras",
+      "medio": "El Destape",
+      "publicado_en": "2026-10-27T23:48:06Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Fueron a pasar un día de pesca a Villa El Chocón y un insólito hallazgo entre las piedras los dejó sin palabras",
+      "enlace": "https://www.eldestapeweb.com/sociedad/encontraron-pescadores-piedras-excursion-villa-chocon-2026102720486"
+    },
+    {
+      "id": "8c5965153724d5c3f78e9fb8620921f2b0d70b38",
+      "titulo": "En vivo - Argentinos vs. Indep.Mza.: 1 - 0, por la fase de grupos de la Liga Profesional",
+      "medio": "TN",
+      "publicado_en": "2026-10-27T23:47:27Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Argentinos 1 vs. 0 Indep.Mza. . Seguí el partido minuto a minuto a través de este artículo de TN.",
+      "enlace": "https://tn.com.ar/deportes/futbol/2026/10/27/argentinos-vs-indepmza-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/"
+    },
+    {
+      "id": "93c58eee778f207dc6e2033722ba2ee3a39ed524",
+      "titulo": "Marta Beatriz Echaul, de 101 años, compartió su secreto de longevidad: “Nunca fui al gimnasio, no camino y como de todo”",
+      "medio": "La Nación",
+      "publicado_en": "2026-10-27T23:46:00Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "La mujer es propietaria de Santa Marta, una empresa de transporte ubicada en Pompeya, al sur de la Ciudad; “Además de la salud, el trabajo es lo más importante”, manifestó en los estudios de LN+",
+      "enlace": "https://www.lanacion.com.ar/sociedad/marta-beatriz-echaul-de-101-anos-compartio-su-secreto-de-longevidad-nunca-fui-al-gimnasio-no-camino-nid26102026/"
+    },
+    {
+      "id": "e9e931d1f31db8ca1125ce65a1f2d1833edfe8ab",
+      "titulo": "Javier Milei y sus medidas, en vivo: el Gobierno dijo que “tomó nota” del triunfo de Lula en Brasil y que Bolsonaro no pidió asilo",
+      "medio": "La Nación",
+      "publicado_en": "2026-10-27T23:45:54Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
+      "enlace": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-continua-sin-pronunciarse-sobre-la-victoria-de-lula-nid27102026/"
+    },
+    {
+      "id": "454e3077678de494ef2bc69d05c65d49e14e574f",
+      "titulo": "Mendoza capital: cuánto cuesta comprar y alquilar un departamento en octubre 2026",
+      "medio": "La Nación",
+      "publicado_en": "2026-10-27T23:45:48Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "El mes pasado las propiedades en la zona registraron una caída del 0,2%",
+      "enlace": "https://www.lanacion.com.ar/propiedades/casas-y-departamentos/mendoza-capital-cuanto-cuesta-comprar-y-alquilar-un-departamento-en-octubre-2026-nid27102026/"
+    },
+    {
+      "id": "3c3bfec6d3478bb1811adb4a55ea3ce481a3dcae",
+      "titulo": "Alerta por el brote de ébola: en República del Congo supera los 10.000 casos",
+      "medio": "Perfil",
+      "publicado_en": "2026-10-27T23:45:24Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Desde el estallido del brote en mayo, se reportaron casi 4.900 muertes hasta el 25 de octubre a causa de la enfermedad, que ya se extendió por 5 países. Leer más",
+      "enlace": "https://perfil.com/internacional/alerta-por-el-brote-de-ebola-en-republica-del-congo-supera-los-10.000-casos-a50-jsm-ae3CZ2T2TnnP"
+    },
+    {
+      "id": "7ed758fcb4ddc72adeaba722b58867d9ce3fe961",
+      "titulo": "Gabriel Rolón, psicoanalista: “No es lo mismo haber sido un hijo deseado que ser el producto de un método anticonceptivo que falló”",
+      "medio": "La Nación",
+      "publicado_en": "2026-10-27T23:45:00Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "En una entrevista exclusiva para LN+, el psicoanalista y escritor reflexionó sobre la naturaleza humana y propuso una mirada cruda sobre el amor, la muerte y la persistencia de los mandatos sociales",
+      "enlace": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-no-es-lo-mismo-haber-sido-un-hijo-deseado-que-ser-el-producto-de-un-nid26102026/"
+    },
+    {
+      "id": "6b5b39257ff8ebf3198ca4776f467f517769b2af",
+      "titulo": "Los títulos imperdibles de esta semana en HBO Max: docuseries, series y películas",
+      "medio": "Perfil",
+      "publicado_en": "2026-10-27T23:44:20Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "A la plataforma llegan títulos como \"Poeta Caníbal\", \"The Moment\" y el estreno de la segunda temporada de la serie \"The Paper\". Leer más",
+      "enlace": "https://perfil.com/entretenimiento/los-titulos-imperdibles-de-esta-semana-en-hbo-max-docuseries-series-y-peliculas-aEDHB6W0o6dl"
+    },
+    {
+      "id": "c6ed1cbba5bb38fd80ec4e3a2303c1bcf0237c36",
+      "titulo": "La Conmebol anunció cómo será la venta de entradas para la final de la Sudamericana: Boca tendrá 12 mil tickets exclusivos",
+      "medio": "TN",
+      "publicado_en": "2026-10-27T23:42:48Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Los hinchas de Boca ya pueden organizar su viaje a Colombia para la final de la Copa Sudamericana ante Atlético Mineiro , que se jugará el sábado 21 de noviembre en Barranquilla. La Conmebol confirmó que la venta general de entradas de Categorías 1 y 2 comenzará el viernes 30 de octubre, mientras que los tickets exclus",
+      "enlace": "https://tn.com.ar/deportes/futbol/2026/10/27/entradas-para-la-final-de-la-copa-sudamericana-en-colombia-cuando-salen-a-la-venta-y-cuanto-cuestan-para-ver-a-boca/"
+    },
     {
       "id": "42ea58497daf3787e4e8760baa15e855fa338981",
       "titulo": "Productores de Carlos Casares fueron a la Justicia para saber qué pasó con los $2,3 billones del plan climático de Kicillof",
@@ -276,17 +409,6 @@
       ],
       "resumen": "El senador no entregó su pasaporte y se marchó del país, luego de la derrota electoral del domingo 25 de octubre; se especula que Donald Trump le daría asilo político; Lula tildó su actitud de “vergonzosa”",
       "enlace": "https://www.lanacion.com.ar/el-mundo/flavio-bolsonaro-salio-de-brasil-en-vivo-el-excandidato-escapo-de-las-autoridades-y-viaja-hacia-eeuu-nid27102026/"
-    },
-    {
-      "id": "8c5965153724d5c3f78e9fb8620921f2b0d70b38",
-      "titulo": "En vivo - Argentinos vs. Indep.Mza.: 1 - 0, por la fase de grupos de la Liga Profesional",
-      "medio": "TN",
-      "publicado_en": "2026-10-27T23:38:27Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "Argentinos 1 vs. 0 Indep.Mza. . Seguí el partido minuto a minuto a través de este artículo de TN.",
-      "enlace": "https://tn.com.ar/deportes/futbol/2026/10/27/argentinos-vs-indepmza-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/"
     },
     {
       "id": "79cd06f268b1780b41c2cd11aa1f0a086fc6a213",
@@ -443,6 +565,17 @@
       "enlace": "https://www.lanacion.com.ar/deportes/rugby/los-pumas-se-confirmo-la-grave-lesion-de-santiago-carreras-que-llegaria-ajustado-al-mundial-nid27102026/"
     },
     {
+      "id": "8feb92c030f66f43bc699821896e81f229fef1ba",
+      "titulo": "María O'Donnell confirmó que esta de novia: quién es el hombre que la conquistó",
+      "medio": "Clarín",
+      "publicado_en": "2026-10-27T23:28:53Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "La periodista, de 56 años, develó que está en pareja con un diseñador gráfico radicado en Barcelona. \"Estoy muy contenta\", reconoció.",
+      "enlace": "https://www.clarin.com/fama/maria-odonnell-confirmo-novia-hombre-conquisto_0_6v0yc2Q324.html"
+    },
+    {
       "id": "bb6ec39d73040c5cac3bcd0114286dcbcb077739",
       "titulo": "El PJ Entre Ríos homenajeó a Néstor Kirchner a 16 años de su fallecimiento",
       "medio": "APF Digital",
@@ -487,6 +620,17 @@
       "enlace": "https://perfil.com/cordoba/ignacio-segura-rankea-en-punta-para-el-juzgado-federal-1-y-sorteo-con-exito-una-denuncia-penal-adAjK6y6YBCz"
     },
     {
+      "id": "7aa0ed4ee6656307cd9be68f9c2a6d517c766c7c",
+      "titulo": "El nuevo libro de Mariana Enriquez: una cartografía del terror contemporáneo",
+      "medio": "Clarín",
+      "publicado_en": "2026-10-27T23:24:27Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "La escritora argentina presentó en Barcelona Conversación con la oscuridad , un ensayo sobre el terror contemporáneo y su propia escritura. Entre los mitos guaraníes, la mitología griega y las historias de fantasmas, reconstruye las influencias que marcaron su fascinación por el género.",
+      "enlace": "https://www.clarin.com/cultura/nuevo-libro-mariana-enriquez-cartografia-terror-contemporaneo_0_m3xYuy15F1.html"
+    },
+    {
       "id": "602e6760f37da7dd87fbb16b4c9d4e813066909c",
       "titulo": "Tiro al Blanco: la vuelta del lateral apuntado por Scaloni y con polémica en el último Súper",
       "medio": "Olé",
@@ -514,7 +658,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T23:23:13Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Un nuevo análisis sugiere que la contaminación por PFAS en el suministro hídrico estadounidense es mucho mayor de lo que reflejan los informes gubernamentales, lo que pone en duda la efectividad de los controles actuales",
       "enlace": "https://www.infobae.com/wapo/2026/10/27/los-niveles-de-sustancias-quimicas-eternas-en-el-agua-potable-de-ee-uu-podrian-duplicar-las-cifras-oficiales/"
@@ -773,17 +917,6 @@
       "enlace": "https://tn.com.ar/sociedad/jardineria/2026/10/27/no-tires-los-cajones-de-verdura-son-un-tesoro-como-hacer-un-jardin-vertical-para-decorar-tu-balcon-sin-gastar-de-mas/"
     },
     {
-      "id": "e9e931d1f31db8ca1125ce65a1f2d1833edfe8ab",
-      "titulo": "Javier Milei y sus medidas, en vivo: el Gobierno dijo que “tomó nota” del triunfo de Lula en Brasil y que Bolsonaro no pidió asilo",
-      "medio": "La Nación",
-      "publicado_en": "2026-10-27T23:15:00Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "El minuto a minuto de las decisiones del Presidente, las reacciones de la oposición y las declaraciones de los funcionarios",
-      "enlace": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-mandatario-continua-sin-pronunciarse-sobre-la-victoria-de-lula-nid27102026/"
-    },
-    {
       "id": "959de831705ff3dff48f316f2365151504b4dd67",
       "titulo": "El Gobierno asegura que no colaboró con la fuga de Bolsonaro y mantendrá silencio sobre su asilo en EE.UU.",
       "medio": "TN",
@@ -826,17 +959,6 @@
       ],
       "resumen": "El delantero de Unión marcó el 3-1 para la victoria de su equipo ante el Pincha y lo celebró de una particular manera.",
       "enlace": "https://www.ole.com.ar/union/ericramirez-union-estudiantes-gimnasiadelaplata-festejo_0_2mBXTfdRcw.html"
-    },
-    {
-      "id": "812c62c683e47890508789522d0cda8f9c0d95ca",
-      "titulo": "Flávio Bolsonaro llegó a Estados Unidos junto a su esposa y sus hijas",
-      "medio": "TN",
-      "publicado_en": "2026-10-27T23:11:08Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "Las últimas noticias del paradero de Flávio Bolsonaro, en vivo:",
-      "enlace": "https://tn.com.ar/internacional/2026/10/27/medios-brasilenos-afirman-que-flavio-bolsonaro-escapo-del-pais-y-esta-en-vuelo-rumbo-a-estados-unidos/"
     },
     {
       "id": "ca9dd388a0eab1dd1bdfe2dfc7f499bd141b88fb",
@@ -921,7 +1043,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T23:08:19Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Matthew Unglesbee, de 37 años y residente de Quincy, enfrenta dos cargos federales por la presunta distribución de cuatro sobres con una sustancia granular que activaron protocolos de seguridad",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/disfruta-del-regalo-acusan-a-un-hombre-de-illinois-de-enviar-cartas-con-polvo-blanco-y-amenazas-a-miembros-del-congreso/"
@@ -1341,7 +1463,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T22:51:07Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Las tres normas refuerzan la confidencialidad de domicilios y padrones electorales, y establecen multas para alojamientos que incumplan la difusión de recursos contra la trata",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/nueva-york-amplia-la-proteccion-para-victimas-de-violencia-que-cambia-con-las-nuevas-leyes/"
@@ -1513,7 +1635,7 @@
     },
     {
       "id": "403431b108b7ba6cb65956bf9e6c04bad4cb7b2c",
-      "titulo": "Video: lo mejor de Argentinos vs Independiente Rivadavia por el Torneo Clausura",
+      "titulo": "Video: el gol de Prieto y lo mejor de Argentinos vs Independiente Rivadavia por el Torneo Clausura",
       "medio": "Olé",
       "publicado_en": "2026-10-27T22:43:38Z",
       "categorias": [
@@ -1727,7 +1849,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T22:34:32Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La Fuerza de Tarea Conjunta del Hemisferio Occidental ejecutó la operación después de recibir información de inteligencia que relacionó a la embarcación con actividades de narcotráfico en una ruta marítima utilizada para el traslado de drogas",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/el-ejercito-de-estados-unidos-bombardeo-una-lancha-en-el-pacifico-oriental-cinco-muertos/"
@@ -1876,17 +1998,6 @@
       "enlace": "https://www.eldestapeweb.com/tecnologia/descuentos-cuotas-interes-pasajes-micro-promocion-especial-plataforma10-viajar-argentina-20261027192559"
     },
     {
-      "id": "243d51a96e675aeb4bbda6fa2f04d1f5cbbd0196",
-      "titulo": "Dólar blue: apelan un “escandaloso” fallo del juez Kreplak que frenó una multa millonaria contra un financista vinculado al massismo",
-      "medio": "Clarín",
-      "publicado_en": "2026-10-27T22:25:06Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "El Banco Central y la fiscalía cuestionaron duramente al magistrado, hermano del ministro de Salud de Axel Kicillof. Lo acusan de apartarse de las normas y modificar los hechos investigados para beneficiar a Karuna Group, una agencia de cambios vinculada a dirigentes del Frente Renovador de La Plata.",
-      "enlace": "https://www.clarin.com/politica/dolar-blue-apelan-escandaloso-fallo-juez-kreplak-freno-multa-millonaria-financista-vinculado-massismo_0_Pdw3tHIgCg.html"
-    },
-    {
       "id": "f3bd2a968d50834db312e2b817daab0efa3e6ec4",
       "titulo": "EE.UU. dice que le otorgará un visado a Flávio Bolsonaro mientras las autoridades brasileñas cuestionan su paradero",
       "medio": "BBC Mundo",
@@ -1909,12 +2020,24 @@
       "enlace": "https://www.eldestapeweb.com/economia/fmi-aprobo-tercera-revision-dice-tiempo-llegara-crecimiento-empleo-20261027192257"
     },
     {
+      "id": "86e3c7bac7988bb0644b6825fdfef9e7d356e5e9",
+      "titulo": "Créditos en Valor Producto: Nuevo cupo de garantías de hasta $10.000 millones para el sector ganadero",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T22:21:27Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "Los créditos en Valor Producto de BICE para el sector ganadero fueron lanzados hace más de un año y financian desde inversiones para la compra de vaquillonas y retención de terneras, capital de trabajo para recría y engorde, hasta la incorporación de ejemplares con alto valor genético. Ya se otorgaron... The post Crédi",
+      "enlace": "https://novacomunicaciones.com.ar/creditos-en-valor-producto-nuevo-cupo-de-garantias-de-hasta-10-000-millones-para-el-sector-ganadero/"
+    },
+    {
       "id": "1181bbfe966b1ee51ae5b2880a98a85d0a7cfdb5",
       "titulo": "Uno de los acusados de la violación grupal en Cornell volvió al campus y lo alojaron en una residencia mixta",
       "medio": "Infobae",
       "publicado_en": "2026-10-27T22:21:13Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La institución lo mantuvo dos semanas en una habitación compartida con otra persona que desconocía su historial, incluso después de que la denunciante presentara públicamente una demanda civil por agresión sexual",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/uno-de-los-acusados-de-la-violacion-grupal-en-cornell-volvio-al-campus-y-lo-alojaron-en-una-residencia-mixta/"
@@ -1929,17 +2052,6 @@
       ],
       "resumen": "Ajuste sobre el INTA: el artículo del Presupuesto 2027 que recortará el 50% de los fondos del organismo",
       "enlace": "https://www.eldestapeweb.com/economia/retiros-remates-censura-informe-expone-devastacion-inta-programas-cientificos-riesgo-20261027192042"
-    },
-    {
-      "id": "5e2669e26b2c2ad8e5b3ae528bd72f726e8e63bb",
-      "titulo": "Nicaragua condena el \"brutal bloqueo\" a Cuba y critica la inacción internacional",
-      "medio": "Clarín",
-      "publicado_en": "2026-10-27T22:20:15Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "Nicaragua criticó en la ONU el bloqueo económico de Estados Unidos a Cuba, calificándolo de \"brutal\" y una \"política terrorista\". Denunció la inacción internacional ante el embargo. El representante nicaragüense instó a Naciones Unidas a reformarse y cumplir su rol en pro de la paz y el desarrollo, apoyando a Cuba en s",
-      "enlace": "https://www.clarin.com/estados-unidos/nicaragua-condena-el-brutal-bloqueo-a-cuba-y-critica-la-inaccion-internacional_0_wjRDWFhAZC.html"
     },
     {
       "id": "af007eb048e39db166ad831444eb95808257d20f",
@@ -2024,7 +2136,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T22:11:54Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Un informe judicial revelado recientemente reconstruye datos telefónicos y antecedentes de violencia que derivaron en la imputación por homicidio de Dale Smith Jr., quince años después del último rastro de la madre de tres hijos en Orlando",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/mensajes-agresivos-y-lesiones-inexplicables-las-pruebas-contra-el-exprometido-de-michelle-parker-desaparecida-tras-participar-en-the-peoples-court/"
@@ -2072,6 +2184,18 @@
       ],
       "resumen": "Qué cambia en el iPhone Duo con respecto a versiones anteriores. Cuáles son las funciones que conviene aprovechar del iPhone Duo.",
       "enlace": "https://www.eldestapeweb.com/tecnologia/vale-pena-dar-salto-revelan-8-datos-cruciales-tenes-saber-iphone-duo-2026102719549"
+    },
+    {
+      "id": "9ab6456f2df8a45d55fae1409a4132de7e0ffea4",
+      "titulo": "La provincia y la Fecier avanzan en una agenda de trabajo para el desarrollo del sector citrícola",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T22:04:32Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "En el marco de su visita al Parque Industrial de Chajarí, el gobernador Rogelio Frigerio se reunió con referentes de la Federación del Citrus de Entre Ríos (Fecier), quienes destacaron la disposición del gobierno provincial para acompañar al sector. Luego, recorrió las instalaciones de la empaquetadora FAMA Importacion",
+      "enlace": "https://novacomunicaciones.com.ar/la-provincia-y-la-fecier-avanzan-en-una-agenda-de-trabajo-para-el-desarrollo-del-sector-citricola/"
     },
     {
       "id": "9f5d4c6bcee221b4e811e33a7ee6ea07c92ccd40",
@@ -2157,7 +2281,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T22:00:18Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La exposición “The Horror Show”, organizada por el Museo de la Academia de Artes y Ciencias Cinematográficas, recorre este género en seis galerías temáticas que estarán abiertas hasta julio de 2027",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/entre-la-capa-de-bela-lugosi-y-la-sierra-de-saw-un-museo-de-los-angeles-ordena-en-400-piezas-un-siglo-de-cine-de-terror/"
@@ -2284,17 +2408,6 @@
       "enlace": "https://www.eldestapeweb.com/tecnologia/guerra-asistentes-virtuales-jugada-xai-grok-bot-arrebatarle-control-hogar-inteligente-google-alexa-20261027185116"
     },
     {
-      "id": "fdc84fe53b49a1210360d664e9dc87bc0edb3803",
-      "titulo": "Escándalo con Kylian Mbappé en China: pérdidas millonarias en sponsors por un meme sobre Mao Zedong",
-      "medio": "El Destape",
-      "publicado_en": "2026-10-27T21:50:09Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "Escándalo con Kylian Mbappé en China: pérdidas millonarias en sponsors por un meme sobre Mao Zedong. Qué pasó con Mbappé en China. Qué dijo Mbappé.",
-      "enlace": "https://www.eldestapeweb.com/deportes/escandalo-kylian-mbappe-china-3-empresas-rompieron-perdidas-millonarias-meme-mao-zedong-2026102718509"
-    },
-    {
       "id": "aa69ef2acf87789987aa9638741f5f5e89c2f8d7",
       "titulo": "Merentiel y River: la historia del delantero que quiso Gallardo y después se convirtió en verdugo",
       "medio": "La Nación",
@@ -2304,6 +2417,18 @@
       ],
       "resumen": "Un gol en el Monumental con Defensa y Justicia cambió el rumbo de su carrera; este domingo buscará ampliar su marca en el clásico",
       "enlace": "https://www.lanacion.com.ar/deportes/futbol/boca-juniors/merentiel-y-river-la-historia-del-delantero-que-quiso-gallardo-y-despues-se-convirtio-en-verdugo-nid27102026/"
+    },
+    {
+      "id": "0dcd64f30f91784d299ccaf489da6726a502baab",
+      "titulo": "Cayeron en Buenos Aires por una millonaria extorsión a un vecino de Gualeguaychú: operaban desde una cárcel y usaban testaferros",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T21:49:50Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "Una investigación conjunta entre la Policía de Entre Ríos y la Bonaerense permitió dar un golpe a una red de extorsionadores que operaba desde un penal. Hay una mujer detenida y se investiga a dos presos alojados en Campana. Una compleja investigación por extorsión que tuvo en vilo durante un... The post Cayeron en Bue",
+      "enlace": "https://novacomunicaciones.com.ar/cayeron-en-buenos-aires-por-una-millonaria-extorsion-a-un-vecino-de-gualeguaychu-operaban-desde-una-carcel-y-usaban-testaferros/"
     },
     {
       "id": "9923e9c2c25aecaa0228904b25dd3f33ff4ec36a",
@@ -2329,28 +2454,6 @@
       "enlace": "https://www.france24.com/es/am%C3%A9rica-latina/20261027-ee-uu-otorgar%C3%A1-visado-a-fl%C3%A1vio-bolsonaro-lula-confirma-que-su-rival-derechista-huy%C3%B3-de-brasil"
     },
     {
-      "id": "89f58ee0ce43de9894ad80ce11212d0e5be7bb49",
-      "titulo": "Inti Bonomo, experto en Ciencias Ambientales, sobre el avance del fenómeno del Súper Niño: “Va a seguir creciendo y el pico va a ser en diciembre”",
-      "medio": "La Nación",
-      "publicado_en": "2026-10-27T21:49:00Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "El licenciado analizó en LN+ la relación entre la nubosidad persistente y las temperaturas frescas de octubre; anticipó que sus efectos se prolongarían durante los primeros meses de 2027",
-      "enlace": "https://www.lanacion.com.ar/sociedad/inti-bonomo-experto-en-ciencias-ambientales-sobre-el-avance-del-fenomeno-del-super-nino-va-a-seguir-nid24102026/"
-    },
-    {
-      "id": "36263f5b233b15b5f8e8a12d90555caa9a98b0ff",
-      "titulo": "Altura de los ríos en la Argentina, según Prefectura: esta es la situación y los niveles de alerta hoy, martes 27 de octubre",
-      "medio": "La Nación",
-      "publicado_en": "2026-10-27T21:49:00Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "El último registro muestra alturas superiores a los niveles de evacuación en distintos puntos de los ríos Paraná, Paraguay e Iguazú; en otros puertos, las aguas continúan en ascenso",
-      "enlace": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid27102026/"
-    },
-    {
       "id": "9395fa6a6b6f675ae5af9ada2d3494fa4d8d456d",
       "titulo": "Carlos Martínez Assad: \"Los partidos árabes nunca habían votado tanto en Israel\"",
       "medio": "France 24 Español",
@@ -2360,17 +2463,6 @@
       ],
       "resumen": "La jornada electoral en Israel muestra un escenario que ya estaban contemplados, es decir, que la elección no se decidirá el día de hoy sino luego del juego de alianza de los partidos. Por otro lado, los partidos árabes han mostrado una participación mayor, pues incluso en ocasiones anteriores dichos partidos habían op",
       "enlace": "https://www.france24.com/es/video/20261027-carlos-mart%C3%ADnez-assad-los-partidos-%C3%A1rabes-nunca-hab%C3%ADan-votado-tando-en-israel"
-    },
-    {
-      "id": "af4d9cf70a5ba70fb8973563bed6cb9b9500fb0a",
-      "titulo": "Moretti le hizo juicio a San Lorenzo: de qué se trata la demanda tras el escándalo del 2025",
-      "medio": "El Destape",
-      "publicado_en": "2026-10-27T21:47:30Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "Marcelo Moretti le inició un juicio a San Lorenzo de Almagro por US$270.000 en préstamos, luego del escándalo en el que quedó envuelto en 2025.",
-      "enlace": "https://www.eldestapeweb.com/deportes/moretti-le-hizo-juicio-san-lorenzo-trata-demanda-escandalo-2025-20261027184730"
     },
     {
       "id": "265abc445da9357b4c1b744d8d95cd5d0d3139e3",
@@ -2384,23 +2476,12 @@
       "enlace": "https://techcrunch.com/2026/10/27/gm-is-embracing-hybrids-now/"
     },
     {
-      "id": "99497c91f920666c3d10903e882147985db739a5",
-      "titulo": "Gabriel Rolón, sobre la esperanza: “Puede dejarnos incapacitados de jugar un deseo a la espera de que ocurran cosas que son más mágicas que personales”",
-      "medio": "La Nación",
-      "publicado_en": "2026-10-27T21:47:00Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "En una entrevista para LA NACION, el psicólogo analizó la complejidad de los vínculos, la resignificación del presente y el peligro de depositar el bienestar en promesas futuras",
-      "enlace": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-sobre-la-esperanza-puede-dejarnos-incapacitados-de-jugar-un-deseo-a-la-espera-de-que-nid27102026/"
-    },
-    {
       "id": "15d28f1331a8343c8066634ddfdddedd20dc76e7",
       "titulo": "Más de 100 bomberos rescatan a ancianos y personas con discapacidad de un edificio en llamas en Miami",
       "medio": "Infobae",
       "publicado_en": "2026-10-27T21:46:30Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El siniestro se originó de madrugada en el complejo Blue Lakes Apartments de Flagami, donde los bomberos tuvieron que cargar escaleras abajo a residentes en sillas de ruedas",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/mas-de-100-bomberos-rescatan-a-ancianos-y-personas-con-discapacidad-de-un-edificio-en-llamas-en-miami/"
@@ -2493,6 +2574,18 @@
       ],
       "resumen": "La Policía informó que oficiales de la Sección Comando Radioeléctrico intervinieron este martes, alrededor de las 15:00 horas, en un edificio ubicado...",
       "enlace": "https://www.eldiaonline.com/detuvieron-al-portero-de-un-edificio-acusado-de-entrar-a-un-departamento-y-robar-dinero"
+    },
+    {
+      "id": "8d0e3621689db2a6ed1a197132f319561829aeb6",
+      "titulo": "Espectacular Conjunción de la Luna y Pléyades en el Cielo del Anochecer",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T21:38:44Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "La Luna y las Pléyades se encuentran en el cielo nocturno. El cielo de finales de octubre nos ofrece una nueva oportunidad para disfrutar de la belleza del universo. Según indica la NASA, este martes 27 de octubre, la Luna protagonizará un bonito encuentro aparente con las Pléyades, uno de los... The post Espectacular ",
+      "enlace": "https://novacomunicaciones.com.ar/espectacular-conjuncion-de-la-luna-y-pleyades-en-el-cielo-del-anochecer/"
     },
     {
       "id": "3110092d3fce470a5245a41c8692acc319091337",
@@ -2588,7 +2681,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T21:34:34Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La sentencia llegó después de cinco semanas de audiencias y puso fin a la primera etapa del expediente, aunque todavía permanecen abiertas cerca de dos docenas de reclamaciones civiles",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/los-hermanos-alexander-recibieron-30-anos-de-prision-por-trata-sexual-tras-un-juicio-que-expuso-abusos-en-nueva-york-y-miami/"
@@ -2662,6 +2755,18 @@
       "enlace": "https://www.eldiaonline.com/el-centro-de-convenciones-fue-sede-de-una-jornada-regional-de-capacitacion-para-prevenir-la-plaga-del-picudo-rojo"
     },
     {
+      "id": "bc78e1770f1ac9850570100853ad744c8b0554ee",
+      "titulo": "El Gobierno de Gualeguaychú avanza con la reconstrucción del ingreso a Obras Sanitarias",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T21:29:01Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "Un sector transitado por camiones y maquinaria pesada contará con pavimento más resistente, pensado para durar más y requerir menos mantenimiento. El Gobierno de Gualeguaychú avanza en la reconstrucción completa del acceso este al predio de la Dirección de Obras Sanitarias, donde ya se demolió la carpeta asfáltica exis",
+      "enlace": "https://novacomunicaciones.com.ar/el-gobierno-de-gualeguaychu-avanza-con-la-reconstruccion-del-ingreso-a-obras-sanitarias/"
+    },
+    {
       "id": "529f38c7fab3b5d444b579215e1fb2d3a4a76090",
       "titulo": "“Tendremos que ajustar el coche”: Franco Colapinto explicó la dificultad que enfrentará Alpine en el GP de México",
       "medio": "TN",
@@ -2729,6 +2834,18 @@
       "enlace": "https://tn.com.ar/campo/2026/10/27/un-ahorro-para-comer-como-un-sueldo-la-impotencia-de-un-trabajador-rural-tras-sufrir-la-faena-de-10-animales/"
     },
     {
+      "id": "aa17187bb31a3990cf9509092bdaec43fb1b66da",
+      "titulo": "Brasil: la Fuerza Aérea interceptó dos aviones provenientes de Venezuela y Bolivia en apenas 48 horas",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T21:15:44Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "En operativos realizados el 22 y 23 de octubre, cazas A-29 Super Tucano forzaron el aterrizaje de un helicóptero y una avioneta en territorio brasileño. La Fuerza Aérea Brasileña (FAB) desplegó una doble operación de interceptación aérea tras registrar el ingreso irregular de dos aeronaves procedentes de Venezuela y Bo",
+      "enlace": "https://novacomunicaciones.com.ar/brasil-la-fuerza-aerea-intercepto-dos-aviones-provenientes-de-venezuela-y-bolivia-en-apenas-48-horas/"
+    },
+    {
       "id": "be8ec0957225462da255d4ec397cd8177acbbc69",
       "titulo": "El FMI aprobó el acuerdo técnico, pero giraría los USD 900 millones tras el cumplimiento de \"pasos acordados\"",
       "medio": "Perfil",
@@ -2760,6 +2877,18 @@
       ],
       "resumen": "BAJADA Leer más",
       "enlace": "https://perfil.com/politica/corto-aCHRV3w9kgmS"
+    },
+    {
+      "id": "c9dfeffc448e6ef4ae4da70f5b20d24690a1050a",
+      "titulo": "El gobierno provincial y la industria arrocera buscan potenciar la competitividad de la producción en Entre Ríos",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T21:08:52Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "El gobernador Rogelio Frigerio encabezó una recorrida institucional por las instalaciones de la empresa La Loma Alimentos, junto a autoridades provinciales y directivos de la firma, con el objetivo de conocer el proceso productivo de la planta y coordinar agendas de trabajo orientadas al desarrollo regional. Al respect",
+      "enlace": "https://novacomunicaciones.com.ar/el-gobierno-provincial-y-la-industria-arrocera-buscan-potenciar-la-competitividad-de-la-produccion-en-entre-rios/"
     },
     {
       "id": "22f753d4eb9767099697aab2213ca5ce887eeac3",
@@ -2800,7 +2929,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T21:03:59Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Esta integración tecnológica permitió a una entidad financiera recortar a la mitad ciertas tareas operativas complejas, manteniendo siempre a los especialistas humanos a cargo de las autorizaciones finales del negocio",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/los-bancos-reducen-el-trabajo-manual-con-agentes-de-ia/"
@@ -2866,7 +2995,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T20:59:49Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Miami, Miami Beach y Fort Lauderdale mantienen vigilancia sobre sus sectores bajos, donde los canales podrían desbordarse y las bombas enfrentar dificultades para expulsar el flujo hacia el océano",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/las-mareas-altas-pueden-provocar-este-martes-las-peores-inundaciones-del-ano-en-el-sur-de-florida/"
@@ -2950,23 +3079,12 @@
       "enlace": "https://perfil.com/deportes/francisco-cerundolo-sentencio-con-derrota-en-viena-la-pesima-semana-europea-del-tenis-argentino-afIiX6M6pyVo"
     },
     {
-      "id": "5d2cb82076479931db61949310d1907e5dbdc981",
-      "titulo": "60.000 empleados alcanzados por retiros voluntarios: en RDC analizaron la estrategia de Microsoft ante el avance de la inteligencia artificial",
-      "medio": "Perfil",
-      "publicado_en": "2026-10-27T20:45:29Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "En Ronda de Corresponsales (RDC), por +Perfil, el periodista Norman Powell analizó la decisión de Microsoft de ofrecer acuerdos de salida voluntaria a unos 60.000 empleados, en paralelo con sus fuertes inversiones en infraestructura para inteligencia artificial. Además, examinó cómo esta transformación podría extenders",
-      "enlace": "https://perfil.com/mas-perfil/60.000-empleados-alcanzados-por-retiros-voluntarios-en-rdc-analizaron-la-estrategia-de-microsoft-ante-el-avance-de-la-inteligencia-artificial-afRvz3W2j6yM"
-    },
-    {
       "id": "59cd07d40d00a66bd6ff7c055981175ef99b82be",
       "titulo": "Ted Bundy, el asesino serial que sigue sumando víctimas: las autoridades de Utah le atribuyen otro homicidio que estuvo 50 años sin resolver",
       "medio": "Infobae",
       "publicado_en": "2026-10-27T20:44:44Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Las autoridades del condado de Summit presentaron las pruebas genéticas que conectan al criminal, ejecutado en 1989, con la muerte de una adolescente desaparecida en 1974",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/ted-bundy-el-asesino-serial-que-sigue-sumando-victimas-las-autoridades-de-utah-le-atribuyen-otro-homicidio-que-estaba-sin-resolver/"
@@ -3003,17 +3121,6 @@
       ],
       "resumen": "Lo que debía ser la definición de un campeonato se convirtió en una batalla campal entre los jugadores. Un partido de fútbol para amputados disputado en Buenos Aires terminó con golpes, empujones y agresiones con muletas. La final de la Copa Fortaleza Guaraní , que se disputó este fin de semana en las instalaciones dep",
       "enlace": "https://tn.com.ar/deportes/futbol/2026/10/27/escandalo-en-la-final-de-futbol-para-amputados-en-buenos-aires-golpes-corridas-y-agresiones-con-muletas/"
-    },
-    {
-      "id": "74154cc4535d9e616f6682dca6c317fe7c76fcac",
-      "titulo": "RDC: qué es Jardun y por qué preocupa la actividad de los grupos radicales en el País Vasco",
-      "medio": "Perfil",
-      "publicado_en": "2026-10-27T20:43:28Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "En Ronda de Corresponsales (RDC), por +Perfil, el periodista y analista de actualidad internacional Marcelo Molina examinó la preocupación por los disturbios en España, el perfil de la organización radical vasca Jardun y las investigaciones policiales sobre posibles conexiones internacionales. También analizó las consi",
-      "enlace": "https://perfil.com/mas-perfil/rdc-que-es-jardun-y-por-que-preocupa-la-actividad-de-los-grupos-radicales-en-el-pais-vasco-aEM700V38c0e"
     },
     {
       "id": "56dc573a48a06d9b95880f04ca5c7fcd05b11cdd",
@@ -3058,17 +3165,6 @@
       ],
       "resumen": "Las billeteras virtuales y el homebanking concentran buena parte de nuestra actividad financiera : desde el cobro del sueldo hasta el pago de servicios y las compras cotidianas, hoy casi todas las operaciones pasan por aplicaciones que llevamos y manejamos desde smartphones. Como estas aplicaciones permiten acceder a n",
       "enlace": "https://tn.com.ar/tecno/novedades/2026/10/27/las-3-claves-para-proteger-tus-billeteras-virtuales-y-homebanking-y-hacerlas-invulnerables-a-estafas/"
-    },
-    {
-      "id": "d7c57117c9fd4e70fac911e6fb6f89b616d4b74a",
-      "titulo": "Jini Hwang, periodista : “El 70% de Corea del Sur es montañoso, pero una estrategia convirtió al país en una potencia cultural”",
-      "medio": "TN",
-      "publicado_en": "2026-10-27T20:32:36Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "La cultura de Corea del Sur dejó de ser algo lejano a occidente y pasó a instalarse en la vida cotidiana de millones de personas. Desde los grupos de K-pop hasta los K-dramas , el cine, la gastronomía y las rutinas de belleza, el país asiático logró expandir su influencia mucho más allá de sus fronteras. Detrás de esa ",
-      "enlace": "https://tn.com.ar/sociedad/2026/10/27/jini-hwang-periodista-el-70-de-corea-del-sur-es-montanoso-pero-una-estrategia-convirtio-al-pais-en-una-potencia-cultural/"
     },
     {
       "id": "5a1b3f6fe7ce875e6f84487d77951f85834e15ba",
@@ -3144,7 +3240,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T20:17:44Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La FDA confirmó que el pescado se elaboraba sin controles sanitarios para prevenir la bacteria Clostridium botulinum y pidió a los consumidores no ingerirlo aunque luzca en buen estado",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/retiran-del-mercado-espadines-ahumados-vendidos-en-nueva-york-tras-detectar-riesgo-de-botulismo/"
@@ -3155,7 +3251,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T20:17:30Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La mujer de 22 años fue capturada este martes 27 de octubre en San Felipe de Alajuelita, después de permanecer prófuga durante casi dos semanas. Es investigada por el homicidio del empresario estadounidense Marc Walter Fleming, ocurrido en un condominio de Playas del Coco, Guanacaste.",
       "enlace": "https://www.infobae.com/costa-rica/2026/10/27/cayo-la-asesina-del-bikini-en-costa-rica-oij-detuvo-a-joven-sospechosa-de-matar-a-estadounidense-con-una-licuadora/"
@@ -3178,7 +3274,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T20:10:47Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La estación de San Pedro registró 2,44 metros sobre su referencia local, mientras el agua avanzaba hacia calles, negocios y viviendas de varios sectores del sur estatal durante la pleamar del lunes",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/mareas-record-inundaron-newport-beach-y-long-beach-el-nivel-del-mar-nunca-habia-sido-tan-alto-en-california/"
@@ -3345,7 +3441,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T19:16:37Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Jennifer Shuford comunicó que abandonará sus funciones el 12 de noviembre por motivos familiares y Satish Pillai asumirá provisionalmente la conducción médica del organismo",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/la-subdirectora-de-los-cdc-dejara-el-cargo-mientras-la-agencia-enfrenta-criticas-por-los-brotes-de-sarampion/"
@@ -3426,7 +3522,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T18:59:14Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Un jurado de Florida emitió el veredicto el 22 de octubre, tras un juicio por el asalto a una tienda de lujo en Orlando. La audiencia para determinar la pena quedó programada para el 7 de diciembre",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/un-hombre-robo-pendientes-de-diamantes-valuados-en-mas-de-usd-760000-y-se-los-trago-para-ocultarlos-de-la-policia/"
@@ -3459,7 +3555,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T18:53:27Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "En la industria, \"superinteligencia\" designa una IA más capaz que los humanos, algo que ningún sistema actual logró",
       "enlace": "https://www.infobae.com/tecno/2026/10/27/trump-prohibira-el-termino-inteligencia-artificial-porque-lo-considera-inexacto/"
@@ -3470,7 +3566,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T18:47:59Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La intervención policial se produjo luego de que un niño de 9 años sufrió un golpe en la cabeza por la caída de una mancuerna en el domicilio familiar en Kissimmee",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/viajo-por-trabajo-a-las-vegas-y-dejo-a-sus-cuatro-hijos-solos-acusan-a-una-madre-de-florida-de-negligencia-infantil/"
@@ -3533,6 +3629,30 @@
       "enlace": "https://www.xataka.com/legislacion-y-derechos/ayuntamiento-burgos-no-encuentra-a-uno-sus-empleados-que-cobro-trabajar-asi-que-ha-usado-boe-para-avisarle"
     },
     {
+      "id": "744b3d6517f02670210fbff3323c4281123693f2",
+      "titulo": "Golpe al fraude tributario: el DFI desarticuló una millonaria maniobra de evasión en el sector agropecuario",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T18:30:20Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "En un megaoperativo impulsado por el Ministerio de Seguridad Nacional, la Policía Federal ejecutó más de 80 allanamientos en distintas provincias. La causa investiga la simulación de compraventa de granos e inconsistencias con el IVA por un monto cercano a los 10 millones de dólares. En el marco de un... The post Golpe",
+      "enlace": "https://novacomunicaciones.com.ar/golpe-al-fraude-tributario-el-dfi-desarticulo-una-millonaria-maniobra-de-evasion-en-el-sector-agropecuario/"
+    },
+    {
+      "id": "de443b0610ba57677d2c740879bc2ba891a97add",
+      "titulo": "Entre Ríos: La PFA extraditó a Uruguay a un prófugo con alerta roja de INTERPOL por una causa de tráfico de armas y drogas",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T18:21:16Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "La Policía Federal Argentina (PFA), dependiente del Ministerio de Seguridad Nacional, extraditó a Uruguay a un ciudadano de ese país que registraba una Notificación Roja de INTERPOL y era buscado por haberse fugado mientras cumplía condena en una causa vinculada al tráfico de armas y estupefacientes. El hombre, de 52..",
+      "enlace": "https://novacomunicaciones.com.ar/entre-rios-la-pfa-extradito-a-uruguay-a-un-profugo-con-alerta-roja-de-interpol-por-una-causa-de-trafico-de-armas-y-drogas/"
+    },
+    {
       "id": "7dd14f9fb33f9179cc23525258d628c666755899",
       "titulo": "Flávio Bolsonaro le pidió asilo político a Donald Trump y ya está en vuelo a Estados Unidos",
       "medio": "El Día de Gualeguaychú",
@@ -3579,6 +3699,18 @@
       "enlace": "https://www.eldiaonline.com/reconocieron-al-linguista-gualeguaychuense-pedro-luis-barcia-como-personalidad-emerita-de-la-cultura-nacional"
     },
     {
+      "id": "aa35e5a502d02090ef0d385630066c23d0504a0a",
+      "titulo": "Prefectura abrió la inscripción al ciclo lectivo 2027 del curso de Piloto de Yate en el CEND",
+      "medio": "Nova Comunicaciones",
+      "publicado_en": "2026-10-27T18:04:21Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "El Centro de Extensión Universitaria en Náutica Deportiva y Recreativa (CEND) anunció oficialmente la apertura del periodo de inscripción para el Curso de Piloto de Yate 2027. Esta propuesta académica de excelencia está diseñada para aquellos navegantes que buscan dar un salto cualitativo en su formación profesional y ",
+      "enlace": "https://novacomunicaciones.com.ar/prefectura-abrio-la-inscripcion-al-ciclo-lectivo-2027-del-curso-de-piloto-de-yate-en-el-cend/"
+    },
+    {
       "id": "cd23f364f9f60720edcfa1479c3ad8bef062b7a2",
       "titulo": "Las guarderías son pequeñas fábricas de virus: la pregunta es si eso ayuda a los niños a inmunizarse en el futuro",
       "medio": "Xataka",
@@ -3607,7 +3739,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T17:46:46Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Las autoridades estadounidenses mantienen cinco destinos bajo la recomendación de no viajar y piden evaluar cuidadosamente los desplazamientos a otros ocho, en un contexto marcado por amenazas a la infraestructura y posibles interrupciones del transporte",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/estados-unidos-actualizo-las-alertas-de-viaje-para-13-paises-ante-el-riesgo-de-nuevos-ataques/"
@@ -3717,7 +3849,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T17:01:16Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La fiscalía estatal presentó cargos contra 12 acusados tras una pesquisa que rastreó envíos desde la frontera mexicana hasta el condado de Pinellas",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/florida-desmantela-una-red-del-cartel-de-sinaloa-que-trafico-cocaina-en-tampa-bay-durante-cinco-anos/"
@@ -3762,7 +3894,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T16:46:07Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Las credenciales admitidas incluyen alternativas poco conocidas, siempre que reúnan fotografía y firma. La normativa estatal detalla opciones para facilitar la participación, con millones inscritos llamados a acudir al recinto asignado",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/que-documentacion-habilita-el-voto-en-florida-durante-las-elecciones-del-3-de-noviembre/"
@@ -3784,7 +3916,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T16:45:04Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Andre Lamar Stafford enfrenta imputaciones por abuso sexual infantil e indecencia pública. Según la orden judicial, los investigadores vincularon un Kia Forte gris registrado a su nombre con el episodio",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/detuvieron-a-un-candidato-republicano-en-georgia-acusado-de-exhibirse-ante-una-menor-cerca-de-una-parada-de-autobus-escolar/"
@@ -3906,7 +4038,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T16:13:38Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La evolución del mercado inmobiliario vuelve a poner el foco en la asequibilidad y en las dificultades para encontrar opciones acordes con los ingresos familiares",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/los-alquileres-en-nueva-york-alcanzaron-un-record-historico-y-superaron-los-usd-3700-mensuales/"
@@ -3917,7 +4049,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T16:08:47Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Los videos virales muestran a unas seis personas con el atuendo del grupo supremacista blanco en un vecindario de El Paso; líderes afroamericanos, legisladores federales y organizaciones civiles condenaron el acto",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/indignacion-en-texas-grabaron-a-un-grupo-con-tunicas-del-ku-klux-klan-en-la-previa-de-halloween-y-la-policia-abrio-una-investigacion/"
@@ -3983,7 +4115,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T15:55:41Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Erica y Clifford Sayre enfrentan seis cargos graves cada uno; las tres víctimas ya fueron retiradas del hogar por los Servicios de Protección Infantil",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/rescatan-a-tres-menores-adoptados-de-una-casa-del-horror-en-virginia-occidental-sufrian-golpes-estrangulamientos-y-amenazas-de-muerte/"
@@ -3994,7 +4126,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T15:54:09Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Agentes federales ejecutaron una orden de registro en la propiedad del multimillonario Stephen Cloobeck como parte de las pesquisas por presunta conducta sexual indebida del excongresista demócrata de California",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/el-fbi-allana-en-beverly-hills-la-mansion-de-un-donante-de-la-campana-de-eric-swalwell/"
@@ -4049,7 +4181,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T15:35:06Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El joven enfrenta 11 cargos por intento de asesinato tras el ataque que dejó 12 personas heridas en Tallahassee",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/florida-procesara-como-adulto-al-adolescente-de-15-anos-acusado-de-tiroteo-cerca-de-una-universidad/"
@@ -4127,7 +4259,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T15:04:07Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La sustitución de términos abstractos por palabras directas gana terreno entre quienes prefieren mencionar la disponibilidad real antes que apelar a metáforas técnicas complejas",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/la-generacion-z-impulsa-un-lenguaje-laboral-mas-claro-frente-a-la-jerga-corporativa-estadounidense/"
@@ -4171,7 +4303,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T14:58:58Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Los fiscales federales en Manhattan solicitaron cadena perpetua para los tres empresarios declarados culpables de drogar y violar a decenas de mujeres durante más de una década",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/de-vender-el-penthouse-mas-caro-de-estados-unidos-a-enfrentar-cargos-por-trafico-sexual-con-mas-de-70-victimas-los-hermanos-alexander-conoceran-su-condena/"
@@ -4215,7 +4347,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T14:43:39Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El ejemplar, de 23 metros de altura y unas 10 toneladas, viajará desde una localidad del estado de Nueva York hasta Manhattan el 7 de noviembre",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/el-arbol-de-navidad-de-rockefeller-center-de-2026-ya-fue-seleccionado-tendra-mas-de-50000-luces-led-y-una-estrella-de-tres-millones-de-cristales/"
@@ -4259,7 +4391,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T14:32:59Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El Departamento de Justicia sostiene que el exfuncionario compartió información de defensa nacional en 2016 y presentó cargos para detener el vencimiento del plazo de prescripción. La defensa cuestiona la validez del procedimiento",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/el-exdirector-del-fbi-james-comey-enfrenta-cargos-federales-por-tercera-vez-en-estados-unidos-por-filtrar-informacion-clasificada/"
@@ -4392,7 +4524,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T14:13:20Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La actriz y cantante estadounidense visita el país para presentar esta nueva etapa de su carrera musical y encontrarse con los seguidores mexicanos",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/victoria-justice-llega-a-mexico-para-celebrar-el-relanzamiento-de-love-zombie-dara-exclusiva-fiesta-de-halloween/"
@@ -4403,7 +4535,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T14:10:04Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Un empleado cargó una planilla con información clínica en una herramienta pública de inteligencia artificial no autorizada. El hospital inició una investigación y ofrecerá monitoreo crediticio gratuito",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/johns-hopkins-bayview-advierte-a-sus-pacientes-sobre-una-filtracion-de-datos-que-afecta-a-mas-de-3100-personas/"
@@ -4425,7 +4557,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T14:06:38Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La tripulante que detectó el mensaje en el celular del joven de 25 años alertó al piloto, que activó el cierre de cabina y regresó al aeropuerto de Nevada sin que el sospechoso lo supiera",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/un-pasajero-amenazo-con-secuestrar-un-avion-de-united-airlines-en-pleno-vuelo-y-forzo-un-aterrizaje-de-emergencia-en-las-vegas/"
@@ -4502,7 +4634,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T13:44:20Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El último informe de los CDC registró un récord a la baja en la fertilidad general del país, impulsado por factores económicos, cambios de prioridades y crecientes dificultades médicas",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/la-tasa-de-natalidad-en-estados-unidos-cae-a-un-minimo-historico-mientras-las-mujeres-mayores-tienen-mas-hijos/"
@@ -4536,7 +4668,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T13:39:20Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Los paquetes llegaron desde China y tenían como destino distintas localidades del sureste estadounidense, según informó la Oficina de Aduanas y Protección Fronteriza",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/una-exclusiva-marca-suiza-de-relojes-de-lujo-fue-falsificada-incautan-piezas-valuadas-en-usd-26-millones-si-fueran-autenticas/"
@@ -4670,7 +4802,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T12:59:42Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El ayuntamiento declaró la emergencia local tras inundaciones en viviendas y comercios de la península de Newport Beach, Balboa, donde se prevé una nueva subida del océano durante los próximos días",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/los-residentes-de-california-se-preparan-para-posibles-mareas-altas-que-podrian-batir-records/"
@@ -4736,7 +4868,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T12:39:16Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El rapero y magnate del hip-hop, que produce el espectáculo desde 2019 a través de Roc Nation, confirmó que actuará el 14 de febrero en Inglewood, California, en un evento que suele superar los 100 millones de televidentes",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/jay-z-encabezara-el-show-de-medio-tiempo-del-super-bowl-2027-en-el-sofi-stadium-de-los-angeles/"
@@ -4758,7 +4890,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T12:29:12Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Las precipitaciones sin precedentes en el suroeste de Estados Unidos anegaron viviendas, contaminaron ríos con aguas residuales y dejaron a comunidades enteras sin electricidad ni acceso por rutas",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/la-region-de-four-corners-se-enfrenta-a-mayores-amenazas-de-inundaciones-tras-varios-dias-de-lluvias-intensas/"
@@ -4780,7 +4912,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T12:08:40Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "David Ellison busca recortar USD 6.000 millones en costos mientras la compañía carga con una deuda de USD 80.000 millones heredada de WBD",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/cinco-dias-en-la-oficina-o-indemnizacion-el-ultimatum-de-skydance-a-sus-53000-empleados-tras-comprar-warner-bros-discovery/"
@@ -4813,7 +4945,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T11:59:13Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Catherine Breed vivió casi cuatro meses a bordo de un velero, enfrentó corrientes invertidas por El Niño y atravesó aguas contaminadas para completar una travesía que parecía imposible",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/paso-111-dias-en-el-pacifico-esquivo-un-huracan-y-se-cruzo-con-5-tiburones-la-primera-mujer-que-nado-toda-la-costa-de-california-desde-oregon-hasta-mexico/"
@@ -4846,7 +4978,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T11:50:38Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Canadienses y mexicanos lideran las compras de viviendas entre extranjeros, mientras los compradores chinos concentran las operaciones de mayor valor en el mercado estadounidense",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/quien-esta-comprando-las-propiedades-de-lujo-en-miami/"
@@ -4879,7 +5011,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T11:24:37Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La acusada fue arrestada luego de que las cámaras registraran los episodios de hostigamiento y agresión física del 21 de octubre en el Diamond District de Manhattan",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/una-mujer-enfrenta-cargos-por-crimenes-de-odio-tras-atacar-con-jeringas-a-dos-hombres-judios-en-nueva-york/"
@@ -4901,7 +5033,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T11:15:26Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La veterana del Ejército culpa a la medicación por la tragedia de 2010 y asegura que la institución donde permanece recluida daña su salud física y mental",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/marci-webber-mato-a-su-hija-durante-un-brote-psicotico-fue-absuelta-y-lleva-16-anos-internada-un-juez-decidira-en-noviembre-si-puede-salir/"
@@ -4912,7 +5044,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T11:09:53Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Las víctimas fueron dejadas frente al centro médico Kaiser Permanente Baldwin Hills-Crenshaw; la policía investiga dónde ocurrió la agresión y busca a los responsables",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/un-hombre-murio-y-otros-dos-quedaron-en-estado-critico-tras-un-ataque-en-los-angeles/"
@@ -4923,7 +5055,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T11:04:52Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Las autoridades ofrecen una recompensa de hasta USD 2.500 por el recluso que atravesó la cerca del Northwest Correctional Complex en Tiptonville y fue captado por cámaras al robar un vehículo cerca del penal",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/buscan-a-jacob-morley-el-preso-condenado-a-cadena-perpetua-que-escapo-de-una-prision-de-tennessee-y-huyo-en-una-camioneta-robada/"
@@ -4956,7 +5088,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T10:47:54Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La oferta incluye elecciones pasadas y llega a una semana de las legislativas de medio término",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/donald-trump-ofrecio-un-millon-de-dolares-por-informacion-que-conduzca-a-condenas-por-fraude-electoral/"
@@ -5000,21 +5132,10 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T09:55:39Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Un gravamen único sobre el patrimonio de los residentes más acaudalados del estado divide a demócratas, agita a Silicon Valley y enfrenta dos iniciativas rivales capaces de anularlo antes de entrar en vigor",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/impuesto-del-5-a-multimillonarios-en-california-que-plantea-la-proposicion-40-que-se-vota-en-noviembre-y-por-que-genera-tanta-polemica/"
-    },
-    {
-      "id": "997edba53077d1e93758f31b286e540a6a542620",
-      "titulo": "Frigerio recorrió la nueva sede de la Departamental de Paraná y aseguró que \"es un edificio como el que merece nuestra Policía\"",
-      "medio": "APF Digital",
-      "publicado_en": "2026-10-27T09:55:39Z",
-      "categorias": [
-        "Entre Ríos"
-      ],
-      "resumen": "La nueva sede permitirá concentrar oficinas que funcionaban en distintos espacios, mejorar las condiciones de trabajo del personal y generar un ahorro anual estimado en casi 60 millones de pesos al dejar de pagar el alquiler del inmueble actual.",
-      "enlace": "https://www.apfdigital.com.ar/noticias/2026/10/27/476454-frigerio-recorrio-la-nueva-sede-de-la-departamental-de-parana-y-aseguro-que-es-un-edificio-como-el-que-merece-nuestra-policia"
     },
     {
       "id": "8bc310ba8f040fff568fe3628ddbb514f56899eb",
@@ -5022,7 +5143,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T09:29:57Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El histórico exjugador brindó una charla frente a ejecutivos de marketing reunidos en la Cumbre de Liderazgo de Brand Innovators, en Nueva York. Allí habló de su filosofía de negocios y los acuerdos publicitarios",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/26/nunca-tuve-un-trabajo-de-verdad-la-leyenda-de-la-nba-shaquille-oneal-hablo-sobre-su-trayectoria-fuera-del-deporte/"
@@ -5066,7 +5187,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T03:15:58Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Como cada lunes, esta lotería estadounidense publicó los resultados ganadores su más reciente sorteo millonario",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/resultados-de-powerball-todos-los-numeros-ganadores-del-26-de-octubre-del-2026/"
@@ -5077,7 +5198,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-27T00:02:00Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "The Original Pantry Cafe volverá a abrir el 19 de noviembre bajo un modelo social que destinará el 100 % de sus beneficios a programas para personas sin hogar",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/27/el-historico-restaurante-de-los-angeles-que-reabrira-despues-de-mas-de-100-anos-y-donara-todas-sus-ganancias/"
@@ -5121,7 +5242,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-26T22:42:01Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Los candidatos deberán presentar distintos requisitos académicos, físicos, médicos y administrativos, además de acreditar autorización laboral dentro del territorio estadounidense durante la evaluación",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/26/nueva-york-ofrece-empleos-en-emergencias-medicas-quienes-pueden-postularse-y-hasta-cuando/"
@@ -5132,7 +5253,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-26T21:11:12Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El programa piloto emitirá advertencias durante 60 días y aplicará sanciones de entre USD 50 y USD 500 según el exceso detectado",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/26/los-angeles-activa-20-camaras-de-velocidad-cuando-comenzaran-las-multas-y-cuanto-podrian-costar/"
@@ -5154,7 +5275,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-26T20:35:36Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La ciudadanía deberá pronunciarse sobre impuestos, vivienda, salud, financiamiento electoral, bonos públicos y controles ambientales mediante un paquete normativo con amplias consecuencias fiscales",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/26/california-lleva-14-propuestas-a-la-boleta-que-deciden-los-votantes-el-3-de-noviembre/"
@@ -5165,7 +5286,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-26T20:25:37Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "“No tomé partido, pero, francamente, pareció otra elección amañada... pareció algo muy corrupto”, dijo el presidente de Estados Unidos, que, sin embargo, elogió a Lula: “Me llevo muy bien con él”",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/26/donald-trump-dijo-que-las-elecciones-en-brasil-estuvieron-amanadas/"
@@ -5176,7 +5297,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-26T20:03:56Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Anthony Rivers III enfrentará 11 cargos vinculados con intentos de asesinato en segundo grado y permanecerá bajo custodia mientras la Fiscalía traslada expediente hacia jurisdicción penal ordinaria durante las próximas etapas procesales",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/26/un-adolescente-de-15-anos-sera-juzgado-como-adulto-por-el-tiroteo-que-dejo-12-heridos-tras-un-partido-universitario-en-florida/"
@@ -5198,7 +5319,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-26T19:10:44Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "La hija de un exdirector del FBI había intervenido en causas de alto perfil, como las de Jeffrey Epstein y Sean “Diddy” Combs",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/26/un-juez-federal-declara-ilegal-el-despido-de-la-exfiscal-maurene-comey-y-ordena-restituirla-en-el-cargo/"
@@ -5231,7 +5352,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-26T17:50:14Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "El gobernador Jared Polis declaró la emergencia en 12 condados tras las lluvias, que dañaron puentes, aislaron comunidades y elevaron el peligro para los residentes",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/26/las-inundaciones-golpearon-el-sur-de-colorado-rutas-destruidas-y-cientos-de-personas-afectadas/"
@@ -5253,7 +5374,7 @@
       "medio": "Infobae",
       "publicado_en": "2026-10-26T17:41:04Z",
       "categorias": [
-        "Argentina"
+        "Internacionales"
       ],
       "resumen": "Cuatro gigantes de Wall Street ya les cierran la puerta a los asistentes de inteligencia artificial. Jamie Dimon avisó quién paga si algo sale mal",
       "enlace": "https://www.infobae.com/estados-unidos/2026/10/25/los-bancos-se-blindaron-contra-hackers-con-ia-la-amenaza-entro-con-la-contrasena-de-los-clientes/"
