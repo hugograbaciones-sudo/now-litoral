@@ -2,29 +2,23 @@ name: Actualizar noticias
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */3 * * *"
-
+    - cron: "0 9,13,20 * * *"
 permissions:
   contents: write
-
 jobs:
   publicar:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
-
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Instalar dependencias
         run: pip install -r scraper/requirements.txt
-
       - name: Reunir titulares RSS autorizados
         run: python scraper/publicar_noticias.py
-
       - name: Publicar el JSON actualizado
         run: |
           git config user.name "github-actions[bot]"
@@ -35,4 +29,3 @@ jobs:
           else
             git commit -m "Actualizar portada de noticias"
             git push
-          fi
