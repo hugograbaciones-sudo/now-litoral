@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-28T20:29-03:00",
+  "generado_en": "2026-10-28T20:31-03:00",
   "historial_horas": 72,
   "fuentes": [
     {
@@ -202,6 +202,29 @@
   ],
   "noticias": [
     {
+      "id": "6d441abc87b6b88adeab4b2fafa51ca98cb1e285",
+      "titulo": "El peronismo va por Santilli, Monteoliva y Quirno por la fuga de Bolsonaro",
+      "medio": "El Argentino de Gualeguaychú",
+      "publicado_en": "2026-10-28T23:30:42Z",
+      "categorias": [
+        "Locales",
+        "Gualeguaychú"
+      ],
+      "resumen": "Unión por la Patria pedirá interpelar al Jefe de Gabinete, a la ministra de Seguridad y al canciller por el paso de Flávio Bolsonaro por Misiones. En el Senado, el bloque de José Mayans buscará que Santilli dé el informe de gestión el 18 de noviembre, tras 16 meses sin presentarse en el Congreso.",
+      "enlace": "https://elargentinodiario.com.ar/politica/28/10/2026/el-peronismo-va-por-santilli-monteoliva-y-quirno-por-la-fuga-de-bolsonaro/"
+    },
+    {
+      "id": "7fc7695d7c63771d1c25f8a61d55538845719e6a",
+      "titulo": "“Pensé que me moría”: el testimonio de un argentino que viajaba en uno de los trenes que chocó en España",
+      "medio": "TN",
+      "publicado_en": "2026-10-28T23:28:37Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Brian , un argentino que e stuvo en uno de los trenes de Toledo que chocó este miércoles en España , aseguró que continúa en shock por el accidente pero agradece “estar vivo” para contarlo. En diálogo con TN , el argentino relató: “Era bastante temprano, yo estaba un poco dormido, y fue de golpe. Media hora antes, el t",
+      "enlace": "https://tn.com.ar/internacional/2026/10/28/pense-que-me-moria-el-testimonio-de-un-argentino-que-viajaba-en-uno-de-los-trenes-que-choco-en-espana/"
+    },
+    {
       "id": "e6367ab35d4c8d41145732c986c9ee9315602343",
       "titulo": "Qué significan las cinco posiciones de la cola de tu gato y qué revelan sus orejas",
       "medio": "La Nación",
@@ -211,6 +234,17 @@
       ],
       "resumen": "La periodista Carola Gil conversa con la veterinaria Virginia Vallejos sobre el significado de las distintas posiciones de la cola de los gatos y qué indican sus orejas cuando las llevan hacia atrás, en una nueva entrega de Huellitas",
       "enlace": "https://www.lanacion.com.ar/videos/que-significan-las-cinco-posiciones-de-la-cola-de-tu-gato-y-que-revelan-sus-orejas-nid28102026/"
+    },
+    {
+      "id": "ddfdfb1e0eab50da23cb02757a517731d699d7c8",
+      "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizaron este miércoles 28 de octubre",
+      "medio": "TN",
+      "publicado_en": "2026-10-28T23:26:35Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Leé también: todas las cotizaciones del dólar del martes 27 de octubre de 2026.",
+      "enlace": "https://tn.com.ar/economia/2026/10/28/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-28-de-octubre/"
     },
     {
       "id": "fc9646c619d05874d01ad4442f3f9bdddb3f210a",
@@ -233,6 +267,17 @@
       ],
       "resumen": "Se tratará de una jornada nacional impulsada por Ctera exigiendo una investigación “exhaustiva, transparente y sin demoras\" tras haberse hallado el cuerpo de Nancy Godoy.",
       "enlace": "https://www.apfdigital.com.ar/noticias/2026/10/28/476811-agmer-anuncio-un-paro-para-este-jueves-en-reclamo-de-justicia-por-la-docente-correntina"
+    },
+    {
+      "id": "d6724cf9290c8882a6da2c8c99aedd8ced408a11",
+      "titulo": "Sabrina Rojas contó lo que hacían Luciano Castro y Flor Vigna cuando empezaron su relación: “Se quedaban en mi cama”",
+      "medio": "TN",
+      "publicado_en": "2026-10-28T23:23:19Z",
+      "categorias": [
+        "Argentina"
+      ],
+      "resumen": "Sabrina Rojas contó cómo manejaron con Luciano Castro la crianza de sus hijos en común después de separarse y reveló que, por el método que eligieron llevar a cabo, su expareja terminó durmiendo con Flor Vigna en la misma cama en la que dormía ella. “A mí Flor me cae bien. Fue madrastra de mis hijos durante un tiempo .",
+      "enlace": "https://tn.com.ar/show/famosos/2026/10/28/sabrina-rojas-conto-lo-que-hacian-luciano-castro-y-flor-vigna-cuando-empezaron-su-relacion-se-quedaban-en-mi-cama/"
     },
     {
       "id": "5a81138c99c1e8ae75de61ee95db816389a70038",
@@ -794,17 +839,6 @@
       ],
       "resumen": "Un animal silvestre fue rescatado, rehabilitado y devuelto a la naturaleza. El caso ocurrió en el Reino Unido.",
       "enlace": "https://www.clarin.com/internacional/cervido-atropellado-vehiculo-pudo-regresar-habitat-natural-proceso-rehabilitacion_0_9SUa81vPfS.html"
-    },
-    {
-      "id": "ddfdfb1e0eab50da23cb02757a517731d699d7c8",
-      "titulo": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizaron este miércoles 28 de octubre",
-      "medio": "TN",
-      "publicado_en": "2026-10-28T22:54:33Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "Leé también: todas las cotizaciones del dólar del martes 27 de octubre de 2026.",
-      "enlace": "https://tn.com.ar/economia/2026/10/28/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-28-de-octubre/"
     },
     {
       "id": "8604a82659f45c87c32a91f2ed55360323989de5",
@@ -3035,17 +3069,6 @@
       "enlace": "https://tn.com.ar/internacional/2026/10/28/buscan-a-un-argentino-de-51-anos-que-desaparecio-tras-el-choque-de-trenes-en-espana/"
     },
     {
-      "id": "fcb45c183f6c1112a09eabfc421b01e1de5e625f",
-      "titulo": "La Justicia de Misiones investiga el ingreso de Flávio Bolsonaro a la Argentina antes de su salida hacia EE.UU.",
-      "medio": "TN",
-      "publicado_en": "2026-10-28T20:28:17Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "El fiscal federal de Puerto Iguazú, Fabián Martínez , solicitó este miércoles informes a organismos oficiales para determinar cómo ingresó al país Flávio Bolsonaro y si existía algún impedimento legal que le prohibiera hacerlo. La medida se adoptó luego de que la diputada nacional Marcela Pagano presentó una denuncia a",
-      "enlace": "https://tn.com.ar/politica/2026/10/28/la-justicia-de-misiones-investiga-el-ingreso-de-flavio-bolsonaro-a-la-argentina-antes-de-su-salida-hacia-eeuu/"
-    },
-    {
       "id": "1954b096b8909332c3e403eff6ce4e4f193f068d",
       "titulo": "RDC: qué se sabe sobre la posible falla informática detrás del choque de trenes en España",
       "medio": "Perfil",
@@ -3055,17 +3078,6 @@
       ],
       "resumen": "En Ronda de Corresponsales (RDC), por +Perfil, el periodista Marcelo Molina analizó el choque de dos trenes en la provincia de Toledo, que dejó al menos 68 muertos y más de 80 heridos. Leer más",
       "enlace": "https://perfil.com/mas-perfil/rdc-que-se-sabe-sobre-la-posible-falla-informatica-detras-del-choque-de-trenes-en-espana-ayNoD9w3Hw0t"
-    },
-    {
-      "id": "8c244bbcbc7b9db86605a52ce2cb0d5704e28c7d",
-      "titulo": "El DT del Bayern Múnich recibió el alta médica tras varios días internado y el club tomará medidas para cuidar su salud",
-      "medio": "TN",
-      "publicado_en": "2026-10-28T20:25:54Z",
-      "categorias": [
-        "Argentina"
-      ],
-      "resumen": "Tras el susto que paralizó al fútbol alemán, hay alivio total en el Bayern Munich . Vincent Kompany fue dado de alta hospitalaria y ya se encuentra en su casa, donde continuará con un proceso de rehabilitación basado estrictamente en reposo y medicación. La noticia fue confirmada este miércoles por el director deportiv",
-      "enlace": "https://tn.com.ar/deportes/futbol/2026/10/28/el-dt-del-bayern-munich-recibio-el-alta-medica-tras-varios-dias-internado-y-el-club-tomara-medidas-para-cuidar-su-salud/"
     },
     {
       "id": "66e5497c3e53fbb009bae911f64fd48bb054fb58",
@@ -4695,18 +4707,6 @@
       ],
       "resumen": "El proyecto conjunto reúne diez canciones y llegará a las plataformas el 3 de noviembre. Como adelanto, los artistas publicaron el primer sencillo acompañado por un cortometraje de 16 minutos ambientado en una ciudad italiana, donde un juego de sillas se transforma en una cuestión de vida o muerte.",
       "enlace": "https://elargentinodiario.com.ar/espectaculos/28/10/2026/bom-el-album-de-lali-y-miranda-cuando-sale-y-cuantas-canciones-tendra/"
-    },
-    {
-      "id": "02e9288bcbf04bac84490a24268194a2f16090ea",
-      "titulo": "Crisis financiera en las microempresas: la morosidad llega al 17,73% y amenaza el empleo",
-      "medio": "El Argentino de Gualeguaychú",
-      "publicado_en": "2026-10-28T13:09:41Z",
-      "categorias": [
-        "Locales",
-        "Gualeguaychú"
-      ],
-      "resumen": "El Mapa de la Deuda de APYME expone la brecha financiera entre las empresas más pequeñas y las corporaciones. Además, el 42,3% de las pymes que refinanciaron sus compromisos volvió a caer en mora durante 2026, en un escenario que amenaza la cadena de pagos y los puestos de trabajo.",
-      "enlace": "https://elargentinodiario.com.ar/zona-destacada/28/10/2026/crisis-financiera-en-las-microempresas-la-morosidad-llega-al-1773-y-amenaza-el-empleo/"
     },
     {
       "id": "2b5c37cc474e9023e7f69b195d80293750299851",
