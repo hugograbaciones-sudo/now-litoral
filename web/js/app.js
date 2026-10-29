@@ -6,9 +6,10 @@
 
   const CONFIG = {
     // Cuando el motor publique en GitHub Pages, cambiar esta línea por la URL absoluta del news.json.
-    NEWS_URL: "data/news.json",
+    NEWS_URL: "data/noticias.json", // lo publica el motor de noticias (GitHub Actions)
     RADIOS_URL: "data/radios.json",
     REFRESCO_MS: 5 * 60 * 1000,
+    UMBRAL_DESACTUALIZADO_MS: 3 * 60 * 60 * 1000, // si el motor lleva mas de 3 h sin publicar, el portal avisa
     ZONA: "America/Argentina/Buenos_Aires",
     PAGINA: 24,
     MOSTRAR_ESPACIOS_PUBLICITARIOS: true,
@@ -44,6 +45,7 @@
   const fmtHora = new Intl.DateTimeFormat("es-AR", { timeZone: CONFIG.ZONA, hour: "2-digit", minute: "2-digit", hour12: false });
   const fmtCorta = new Intl.DateTimeFormat("es-AR", { timeZone: CONFIG.ZONA, day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
 
+  const fmtDia = new Intl.DateTimeFormat("es-AR", { timeZone: CONFIG.ZONA, day: "2-digit", month: "2-digit", year: "numeric" });
   function hace(ms) {
     const m = Math.round((Date.now() - ms) / 60000);
     if (m < 1) return "ahora";
@@ -58,22 +60,41 @@
   }
 
   /* ---------- Datos ---------- */
+  // El motor publica etiquetas ("Entre Ríos", "Tecnología"…); aquí se convierten a los identificadores del portal.
+  const ALIAS = { "tecnologia-e-ia": "tecnologia", "agro-y-produccion": "agro" };
+  const PRIORIDAD = ["gualeguaychu", "entre-rios", "deportes", "tecnologia", "internacionales", "policiales",
+    "politica", "economia", "espectaculos", "agro", "sociedad", "argentina"];
+
+  function categoriasDe(it) {
+    const crudas = [].concat(it.categorias || [], it.categoria || []);
+    const set = new Set();
+    for (const c of crudas) {
+      const base = norm(c).trim().replace(/\s+/g, "-");
+      const clave = ALIAS[base] || base;
+      if (NOMBRE_CAT[clave] && clave !== "ultimas") set.add(clave); // "Locales" y otras etiquetas sin sección se ignoran
+    }
+    if (set.has("gualeguaychu")) set.add("entre-rios"); // Gualeguaychú también es Entre Ríos
+    return set;
+  }
+  const limpiarResumen = (v) => String(v || "").replace(/\s*Leer más\s*$/i, "").trim().slice(0, 280);
+
   function normalizar(lista) {
     const vistos = new Set();
     const out = [];
     for (const it of Array.isArray(lista) ? lista : []) {
-      const url = urlWeb(it && it.url);
+      const url = urlWeb(it && (it.enlace || it.url));
       const titulo = String((it && it.titulo) || "").trim();
       const medio = String((it && it.medio) || "").trim();
-      const fecha = Date.parse(it && it.fecha);
+      const fecha = Date.parse(it && (it.publicado_en || it.fecha));
       if (!url || !titulo || !medio || Number.isNaN(fecha) || vistos.has(url)) continue;
       vistos.add(url);
+      const cats = categoriasDe(it);
       out.push({
         titulo, medio, url, fecha,
-        categoria: NOMBRE_CAT[it.categoria] && it.categoria !== "ultimas" ? it.categoria : "argentina",
-        categorias: Array.isArray(it.categorias) ? it.categorias.filter((c) => NOMBRE_CAT[c]) : [],
-        imagen: urlHttps(it.imagen),
-        resumen: String(it.resumen || "").trim().slice(0, 280),
+        categoria: PRIORIDAD.find((c) => cats.has(c)) || "argentina",
+        categorias: [...cats],
+        imagen: urlHttps(it.imagen || it.imagen_url),
+        resumen: limpiarResumen(it.resumen),
       });
     }
     return out.sort((a, b) => b.fecha - a.fecha);
@@ -93,9 +114,10 @@
       const r = await fetch(CONFIG.NEWS_URL, { cache: "no-cache" });
       if (!r.ok) throw new Error("HTTP " + r.status);
       const d = await r.json();
-      const items = normalizar(d.items);
-      estado.items = items;
-      estado.actualizado = d.actualizado ? Date.parse(d.actualizado) : null;
+      const lista = Array.isArray(d.noticias) ? d.noticias : d.items; // el motor publica "noticias"
+      estado.items = normalizar(lista);
+      const marca = Date.parse(d.generado_en || d.actualizado);
+      estado.actualizado = Number.isNaN(marca) ? null : marca;
       estado.fallo = false;
     } catch (e) {
       estado.fallo = true; // se conserva la última edición válida, si la hay
@@ -132,8 +154,12 @@
 
   /* ---------- Render ---------- */
   function renderMenu() {
-    $("#menu").innerHTML = CATEGORIAS.map(([id, nombre]) =>
-      `<button type="button" role="tab" data-cat="${id}" aria-selected="${id === estado.categoria}">${esc(nombre)}</button>`).join("");
+    const hay = estado.items.length > 0;
+    $("#menu").innerHTML = CATEGORIAS.map(([id, nombre]) => {
+      const n = id === "ultimas" ? estado.items.length : estado.items.filter((i) => perteneceA(i, id)).length;
+      const vacia = hay && n === 0;
+      return `<button type="button" role="tab" data-cat="${id}" aria-selected="${id === estado.categoria}"${vacia ? ' class="vacia" title="Todavía no hay noticias en esta sección"' : ""}>${esc(nombre)}</button>`;
+    }).join("");
   }
   function renderMedios() {
     const sel = $("#filtro-medio");
@@ -162,14 +188,24 @@
       return;
     }
     const medios = new Set(estado.items.map((i) => i.medio)).size;
-    const cuando = estado.actualizado ? ` · actualizado ${fmtHora.format(estado.actualizado)} h` : "";
-    const aviso = estado.fallo ? " · No se pudo actualizar; se muestra la última edición disponible." : "";
+    let cuando = "";
+    let aviso = "";
+    if (estado.actualizado) {
+      const esHoy = fmtDia.format(estado.actualizado) === fmtDia.format(Date.now());
+      cuando = ` · actualizado ${esHoy ? fmtHora.format(estado.actualizado) : fmtCorta.format(estado.actualizado)} h`;
+      const atraso = Date.now() - estado.actualizado;
+      if (atraso > CONFIG.UMBRAL_DESACTUALIZADO_MS) {
+        aviso = ` · ⚠ Atención: hace ${Math.floor(atraso / 3600000)} h que el motor no publica noticias nuevas.`;
+      }
+    }
+    if (estado.fallo) aviso += " · No se pudo actualizar; se muestra la última edición disponible.";
     el.textContent = `${estado.items.length} noticias de ${medios} medios${cuando}${aviso}`;
   }
 
   function render() {
     const hayItems = estado.items.length > 0;
     renderEstado(hayItems);
+    renderMenu();
     renderMedios();
     renderTicker();
 
@@ -199,7 +235,8 @@
     }
 
     if (!todos.length) {
-      lista.innerHTML = `<p class="estado estado--vacio">No hay noticias para esa búsqueda o filtro.</p>`;
+      const seccionVacia = !estado.texto.trim() && !estado.medio && estado.categoria !== "ultimas";
+      lista.innerHTML = `<p class="estado estado--vacio">${seccionVacia ? "Todavía no hay noticias en esta sección." : "No hay noticias para esa búsqueda o filtro."}</p>`;
       mas.hidden = true;
     } else {
       const visibles = resto.slice(0, estado.visibles);
