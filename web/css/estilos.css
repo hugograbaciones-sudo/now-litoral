@@ -124,6 +124,7 @@ h1, h2, h3, p { margin: 0; }
   border-bottom: 3px solid transparent; margin-bottom: -3px;
 }
 .menu__lista button:hover { color: #fff; }
+.menu__lista button.vacia { opacity: .5; }
 .menu__lista button[aria-selected="true"] { color: #fff; border-bottom-color: var(--naranja); }
 @media (min-width: 900px) { .mini-marca { display: inline-flex; } }
 
@@ -216,6 +217,8 @@ h1, h2, h3, p { margin: 0; }
 .cat-policiales { --g1: #3a1620; --g2: #c0392b; }
 .cat-espectaculos { --g1: #4a1a5c; --g2: #e05aa0; }
 .cat-agro { --g1: #3d4a10; --g2: #9bbf2b; }
+.cat-entre-rios { --g1: #7a3300; --g2: #ff7a1a; }
+.cat-gualeguaychu { --g1: #0c4d27; --g2: #22b04a; }
 
 /* Filtros y secciones */
 .filtros { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin: 6px 0 14px; flex-wrap: wrap; }
