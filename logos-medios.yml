@@ -1,0 +1,48 @@
+name: Buscar logotipos de los medios
+
+# Se ejecuta SOLO a mano (Actions -> Buscar logotipos de los medios -> Run workflow).
+# Guarda los logotipos dentro del proyecto (web/assets/medios). Es un unico commit, asi que
+# Cloudflare hace una sola reconstruccion.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: logos-medios
+  cancel-in-progress: false
+
+jobs:
+  logos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Instalar dependencias
+        run: pip install -r scraper/requirements.txt
+
+      - name: Buscar y optimizar logotipos
+        run: python scraper/logos_medios.py --salida web/assets/medios
+
+      - name: Guardar logotipos en el proyecto
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/assets/medios
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los logotipos."
+          else
+            git commit -m "Actualizar logotipos de los medios"
+            git pull --rebase -X theirs origin main
+            git push origin HEAD:main
+          fi

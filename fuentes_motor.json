@@ -1,0 +1,22 @@
+{
+  "_aviso": "Fuentes del motor de noticias. 'feeds' se prueban en orden y se usa el primero que funcione. 'categorias_fijas' van siempre; 'clasificar' deduce la seccion por la ruta de la URL; 'argentina' agrega la etiqueta Argentina salvo que la nota sea solo internacional. Direcciones tomadas de las fuentes que el verificador marco como OK. 'web' es la portada del medio: se usa para buscar su logotipo.",
+  "fuentes": [
+    {"id": "infobae", "nombre": "Infobae", "feeds": ["https://www.infobae.com/arc/outboundfeeds/rss/", "https://www.infobae.com/arc/outboundfeeds/rss/category/estados-unidos/"], "clasificar": true, "argentina": true, "web": "https://www.infobae.com/"},
+    {"id": "clarin", "nombre": "Clarín", "feeds": ["https://www.clarin.com/rss/lo-ultimo/"], "clasificar": true, "argentina": true, "web": "https://www.clarin.com/"},
+    {"id": "lanacion", "nombre": "La Nación", "feeds": ["https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml"], "clasificar": true, "argentina": true, "web": "https://www.lanacion.com.ar/"},
+    {"id": "perfil", "nombre": "Perfil", "feeds": ["https://www.perfil.com/feed"], "clasificar": true, "argentina": true, "web": "https://www.perfil.com/"},
+    {"id": "tn", "nombre": "TN", "feeds": ["https://tn.com.ar/arc/outboundfeeds/rss/?outputType=xml"], "clasificar": true, "argentina": true, "web": "https://tn.com.ar/"},
+    {"id": "eldestape", "nombre": "El Destape", "feeds": ["https://www.eldestapeweb.com/adjuntos/177/rss/home.xml"], "clasificar": true, "argentina": true, "web": "https://www.eldestapeweb.com/"},
+    {"id": "nova_comunicaciones", "nombre": "Nova Comunicaciones", "feeds": ["https://novacomunicaciones.com.ar/feed/"], "clasificar": true, "argentina": true, "web": "https://novacomunicaciones.com.ar/"},
+    {"id": "eldia_gchu", "nombre": "El Día de Gualeguaychú", "feeds": ["https://eldiaapiv3.eleco.com.ar/feed-notes"], "categorias_fijas": ["Gualeguaychú", "Entre Ríos"], "web": "https://www.eldiaonline.com/"},
+    {"id": "elargentino", "nombre": "El Argentino de Gualeguaychú", "feeds": ["https://elargentinodiario.com.ar/feed/"], "categorias_fijas": ["Gualeguaychú", "Entre Ríos"], "web": "https://elargentinodiario.com.ar/"},
+    {"id": "apf", "nombre": "APF Digital", "feeds": ["https://www.apfdigital.com.ar/rss/noticias"], "categorias_fijas": ["Entre Ríos"], "web": "https://www.apfdigital.com.ar/"},
+    {"id": "ole", "nombre": "Olé", "feeds": ["https://www.ole.com.ar/rss/ultimas-noticias"], "categorias_fijas": ["Deportes"], "web": "https://www.ole.com.ar/"},
+    {"id": "bbc_mundo", "nombre": "BBC Mundo", "feeds": ["https://feeds.bbci.co.uk/mundo/rss.xml"], "categorias_fijas": ["Internacionales"], "web": "https://www.bbc.com/mundo"},
+    {"id": "france24_es", "nombre": "France 24 Español", "feeds": ["https://www.france24.com/es/rss"], "categorias_fijas": ["Internacionales"], "web": "https://www.france24.com/es/"},
+    {"id": "xataka", "nombre": "Xataka", "feeds": ["https://www.xataka.com/feedburner.xml"], "categorias_fijas": ["Tecnología"], "web": "https://www.xataka.com/"},
+    {"id": "genbeta", "nombre": "Genbeta", "feeds": ["https://www.genbeta.com/feedburner.xml"], "categorias_fijas": ["Tecnología"], "web": "https://www.genbeta.com/"},
+    {"id": "mit_tr", "nombre": "MIT Technology Review", "feeds": ["https://www.technologyreview.com/feed/"], "categorias_fijas": ["Tecnología"], "web": "https://www.technologyreview.com/"},
+    {"id": "techcrunch", "nombre": "TechCrunch", "feeds": ["https://techcrunch.com/feed/"], "categorias_fijas": ["Tecnología"], "web": "https://techcrunch.com/"}
+  ]
+}
