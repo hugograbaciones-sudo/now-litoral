@@ -1,36 +1,99 @@
 name: Actualizar noticias
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7 1,9,13,17,21 * * *"
+    # Cinco actualizaciones por dia. GitHub usa hora UTC; Argentina es UTC-3.
+    - cron: "0 9 * * *"    # 06:00 Argentina
+    - cron: "0 12 * * *"   # 09:00 Argentina
+    - cron: "0 15 * * *"   # 12:00 Argentina
+    - cron: "0 21 * * *"   # 18:00 Argentina
+    - cron: "0 1 * * *"    # 22:00 Argentina
 
+# Permiso minimo necesario: escribir en el repositorio SOLO para publicar la rama "datos".
+# Este workflow no hace commits en "main".
 permissions:
   contents: write
+
+concurrency:
+  group: actualizar-noticias
+  cancel-in-progress: false
+
 jobs:
   publicar:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
+
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Instalar dependencias
         run: pip install -r scraper/requirements.txt
+
       - name: Reunir titulares RSS autorizados
         run: python scraper/publicar_noticias.py
-      - name: Publicar el JSON actualizado
+
+      - name: Validar el JSON generado
         run: |
-          git config user.name "github-actions[bot]"
-          git add web/data/noticias.json
-                    git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/data/noticias.json
-          if git diff --cached --quiet; then
-            echo "No hay cambios nuevos para publicar."
-          else
-            git commit -m "Actualizar portada de noticias"
-            git pull --rebase -X theirs origin main
-            git push
+          python - <<'PY'
+          import json, os, sys, time, urllib.request
+          ruta = "web/data/noticias.json"
+          try:
+              datos = json.load(open(ruta, encoding="utf-8"))
+          except (OSError, ValueError) as e:
+              sys.exit(f"{ruta}: no es un JSON valido ({e}). No se publica.")
+          lista = datos.get("noticias")
+          if not isinstance(lista, list) or not lista:
+              sys.exit("El archivo no tiene noticias. No se publica una portada vacia.")
+          if not datos.get("generado_en"):
+              sys.exit("Falta la fecha de actualizacion (generado_en). No se publica.")
+          if any(not n.get("titulo") or not n.get("enlace") for n in lista):
+              sys.exit("Hay noticias sin titulo o sin enlace. No se publica.")
+          print(f"JSON valido: {len(lista)} noticias, generado_en {datos['generado_en']}")
+          # Comparar con la ultima publicacion valida en la rama datos (si existe).
+          repo = os.environ["GITHUB_REPOSITORY"]
+          url = os.environ.get("URL_PUBLICADA", f"https://raw.githubusercontent.com/{repo}/datos/noticias.json?v={int(time.time())}")
+          try:
+              with urllib.request.urlopen(url, timeout=20) as r:
+                  anterior = json.load(r).get("noticias", [])
+          except Exception as e:
+              print(f"No hay publicacion anterior para comparar ({type(e).__name__}); se continua.")
+              anterior = []
+          if len(anterior) >= 20 and len(lista) < len(anterior) * 0.5:
+              sys.exit(f"La nueva edicion tiene {len(lista)} noticias y la publicada {len(anterior)}. No se pisa contenido valido.")
+          print(f"Comparacion con lo publicado: {len(anterior)} antes, {len(lista)} ahora. OK.")
+          PY
+
+      - name: Publicar el JSON en la rama datos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # 1) Si "datos" ya existe con archivos ajenos a esta publicacion, se guarda UNA copia en "datos-respaldo"
+          #    antes de reemplazarla (no se pierde nada).
+          if git ls-remote --exit-code --heads origin datos >/dev/null 2>&1; then
+            git fetch --depth=1 origin datos
+            AJENOS="$(git ls-tree -r --name-only FETCH_HEAD | grep -v -x -E 'noticias\.json|LEEME\.txt' || true)"
+            if [ -n "$AJENOS" ] && ! git ls-remote --exit-code --heads origin datos-respaldo >/dev/null 2>&1; then
+              echo "La rama datos tenia otros archivos: se guarda una copia en datos-respaldo"
+              git push origin FETCH_HEAD:refs/heads/datos-respaldo
+            fi
           fi
+          # 2) Publicar en la raiz de "datos": un unico commit que se reescribe (el historial no crece)
+          rm -rf datos-publicar
+          mkdir datos-publicar
+          cp web/data/noticias.json datos-publicar/noticias.json
+          printf '%s\n' 'Rama generada automaticamente por el workflow "Actualizar noticias". No editar a mano.' > datos-publicar/LEEME.txt
+          cd datos-publicar
+          git init -q -b datos
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Datos de noticias $(TZ=America/Argentina/Buenos_Aires date '+%Y-%m-%d %H:%M')"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin datos
